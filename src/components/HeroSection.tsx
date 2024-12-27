@@ -10,7 +10,6 @@ const HeroSection = () => {
 
   return (
     <div className="hero-container">
-      {/* Content */}
       <div className="hero-content">
         <div className={`fade-up-element ${isVisible ? 'visible' : ''}`}>
           <h1 className="hero-title">
@@ -24,10 +23,10 @@ const HeroSection = () => {
 
           <div className={`hero-buttons ${isVisible ? 'visible delay-400' : ''}`}>
             <button className="primary-button">
-              Learn More
+              <span>Learn More</span>
             </button>
             <button className="secondary-button">
-              Join Us
+              <span>Join Us</span>
             </button>
           </div>
         </div>
