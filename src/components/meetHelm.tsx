@@ -67,7 +67,7 @@ const MeetTheHelm: React.FC = () => {
                             </a>
                             <a
                                 href="#"
-                                className=" transition-colors"
+                                className="hover:text-indigo-800 transition-colors"
                             >
                                 Instagram
                             </a>
