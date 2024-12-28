@@ -39,7 +39,7 @@ const MeetTheHelm: React.FC = () => {
                         key={index}
                         className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300"
                     >
-                        <div className="bg-gradient-to-tr">
+                        <div className="bg-gradient-to-tr from-blue-50 to-gray-100">
                             <div className="w-40 h-40 mx-auto rounded-full border-4 border-white overflow-hidden">
                                 <img
                                     src={member.image}
