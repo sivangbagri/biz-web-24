@@ -129,5 +129,101 @@ Founded by passionate volunteers, The Product Folks fosters a vibrant community 
         phone: '+919779577827'
       }
     ]
+  },
+  {
+    id: 'portfolium',
+    name: 'Portfolium - Innovate, Invest, Excel',
+    image: '/events/Portfolium.png',
+    summary: 'Put your financial skills to the test in an exciting portfolio management competition.',
+    description: `# Portfolium - Innovate, Invest, Excel
+
+Put your financial skills to the test in Portfolium - Innovate, Invest, Excel, a competition designed for finance enthusiasts, students, and professionals. Start with a quiz to assess your knowledge, then move on to design a dynamic portfolio with a 1-year investment horizon. Unleash your creativity and market insights to build a portfolio that balances risk and reward, while adhering to real-world constraints.
+
+## Event Format
+
+### Round 1: Finance Quiz
+A comprehensive quiz assessing knowledge of financial concepts, markets, and investment strategies.
+
+### Round 2: Portfolio Proposal Submission
+Participants submit a detailed portfolio in Excel format with the following constraints:
+* No limit on the number of assets (stocks, MF, ETFs, Gold, Cash, etc.), provided they are listed on NSE.
+* Stock selections must be from the NIFTY 750 Index.
+* Metrics required: Asset Allocation (%), Expected Returns, Risk Analysis, and Sectoral Diversification.
+* Portfolio rationale and strategy explanation.
+
+### Round 3: Final Presentation (5-8 Slides)
+Shortlisted teams present their portfolio to a panel of experts, focusing on:
+* Investment philosophy and strategy
+* Expected performance under various market conditions
+* Risk management measures and insights
+
+## Rules & Guidelines
+
+1. Participation is open to individuals or teams of 2-3 members.
+2. Portfolio components must be listed on the NSE; stocks should be from the NIFTY 750 Index.
+3. Weightage will be given to innovation, rationale, and realistic projections.
+4. Judges' decision is final and binding.
+
+## Rewards
+Prize worth ₹35,000`,
+    prizeMoney: 'INR 35,000+',
+    registrationLink: 'https://unstop.com/competitions/portfolium-innovate-invest-excel-bash-70-business-associates-special-hours-iit-bhu-1339339',
+    problemStatementLink: '#',
+    contacts: [
+      {
+        name: 'Hetkumar Patel',
+        email: 'hetkumar.patel.min23@itbhu.ac.in',
+        phone: '+917862077266'
+      },
+      {
+        name: 'Neelansh Pandey',
+        email: 'neelansh.student.met23@itbhu.ac.in',
+        phone: '+919321750264'
+      }
+    ]
+  },
+  {
+    id: 'consultium',
+    name: 'Consultium',
+    image: '/events/Consultium.png',
+    summary: 'A prestigious consulting case competition for tackling real-world business challenges.',
+    description: `# Consultium
+
+Consultium is an esteemed consulting case competition that challenges participants to tackle real-world business challenges and devise innovative solutions in a high-pressure, fast-paced environment. The competition format is designed to simulate the rigor and demands of a consulting career, requiring participants to work collaboratively in teams to present their solutions effectively to a panel of expert judges.
+
+## Rules
+
+1. Participants can participate in teams of 1-4.
+2. Participants' devices must have a speaker, mic, and camera in proper working conditions.
+3. The organizing committee shall not be held responsible for technical issues from participants' side.
+4. No disrespect shall be shown towards the judges.
+5. Strict actions will be taken against those who break the discipline of the competition.
+6. No entries will be entertained after the decided time limit.
+7. The presentation should not contain disrespectful content towards any caste or religion.
+8. Any sort of plagiarism will lead to immediate disqualification.
+9. In any sort of dilemma during the competition, the decision of the judges will be final and binding.
+
+## Important Dates
+
+* Registration Deadline: 10 Jan 2025, 11:59 PM IST
+* Round 1 Deadline: 10 Jan 2025, 11:59 PM IST
+* Round 2 Deadline: 15 Jan 2025, 11:59 PM IST
+* Final Round: 18 Jan 2025, 10:00 AM IST
+
+## Rewards
+Prize worth ₹35,000`,
+    prizeMoney: 'INR 35,000+',
+    registrationLink: 'https://unstop.com/competitions/consultium-bash-70-business-associates-special-hours-iit-bhu-1338981',
+    problemStatementLink: '#',
+    contacts: [
+      {
+        name: 'Tanmay',
+        phone: '+917021515092'
+      },
+      {
+        name: 'Riya',
+        phone: '+919520251473'
+      }
+    ]
   }
-]; 
+];
