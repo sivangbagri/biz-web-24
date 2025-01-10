@@ -42,6 +42,7 @@ const Card = ({ cardData }) => (
     </div>
   </div>
 );
+
 const App = () => {
   const [cards, setCards] = useState([]);
 
