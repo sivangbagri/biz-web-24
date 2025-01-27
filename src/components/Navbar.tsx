@@ -13,7 +13,7 @@ const Navbar = () => {
           <a href="#home" className="nav-link">HOME</a>
           <a href="#timeline" className="nav-link">TIMELINE</a>
           <a href="#resources" className="nav-link">RESOURCES</a>
-          <a href="#bash" className="nav-link">BASH</a>
+          <a href="/bash" className="nav-link">BASH</a>
           <a href="#newsletter" className="nav-link">NEWSLETTER</a>
         </div>
       </div>
