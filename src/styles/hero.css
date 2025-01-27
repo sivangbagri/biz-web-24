@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+.hero-container {
+  @apply relative min-h-screen flex items-center justify-center bg-white;
+}
+
+.hero-content {
+  @apply relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
+}
+
+.hero-title {
+  @apply text-5xl md:text-7xl font-bold text-black mb-6 tracking-tight;
+}
+
+.hero-subtitle {
+  @apply block font-light text-3xl md:text-4xl text-gray-500 mb-2;
+}
+
+.hero-main-title {
+  @apply block mt-2 text-black;
+}
+
+.hero-description {
+  @apply mt-6 text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto font-light;
+}
+
+.hero-buttons {
+  @apply mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center;
+}
+
+.primary-button {
+  @apply px-8 py-3 bg-black text-white text-base font-medium 
+         hover:bg-gray-900 transition-colors duration-300 min-w-[160px];
+}
+
+.secondary-button {
+  @apply px-8 py-3 border border-black text-black text-base font-medium 
+         hover:bg-black hover:text-white transition-all duration-300 min-w-[160px];
+}
+
+/* Animation classes */
+.fade-up-element {
+  @apply transition-all duration-1000 ease-out transform translate-y-8 opacity-0;
+}
+
+.fade-up-element.visible {
+  @apply translate-y-0 opacity-100;
+}
+
+.delay-200 {
+  transition-delay: 200ms;
+}
+
+.delay-400 {
+  transition-delay: 400ms;
+} 
