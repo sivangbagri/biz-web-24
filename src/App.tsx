@@ -7,6 +7,9 @@ import LandingPage from '@/pages/LandingPage';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import GalleryPage from '@/pages/GalleryPage';
+import Timeline from './pages/timeline';
+import MeetTheHelm from './pages/meetHelm';
+import OurAchievements from './pages/achievements';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Route path="/bash" element={<EventsPage />} />
         <Route path="/gallery" element={<GalleryPage />} /> 
         <Route path="/event/:id" element={<EventDetailPage />} />
+        <Route path="/timeline" element={<Timeline />} />
+        <Route path="/meethelm" element={<MeetTheHelm />} />
+        <Route path="/achievements" element={<OurAchievements />} />  
       </Routes>
     </Router>
     <Footer />
