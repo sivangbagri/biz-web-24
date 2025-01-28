@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import HeroSection from '../components/HeroSection.tsx';
+import HeroSection from '@/components/HeroSection.tsx';
 
 const LandingPage: FC = () => {
   return (

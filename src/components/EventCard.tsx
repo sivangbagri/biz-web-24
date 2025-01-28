@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Event } from '../types/event';
+import { Event } from 'types/event';
 
 interface EventCardProps {
   event: Event;

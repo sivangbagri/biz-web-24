@@ -2,7 +2,7 @@ import { FC, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { events } from '../data/events';
 import ReactMarkdown from 'react-markdown';
-import { Event } from '../types/event';
+import { Event } from '../../types/event';
 
 const EventDetailPage: FC = () => {
   const { id } = useParams<{ id: string }>();
