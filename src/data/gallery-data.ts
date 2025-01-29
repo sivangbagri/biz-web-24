@@ -1,7 +1,7 @@
 import asthaImg from '../assets/images/astha_shetty.png';
 import aryanImg from '../assets/images/aryan_sharma.jpeg';
 import hrishitImg from '../assets/images/hrishit_yelchuri.png';
-import shivangImg from '../assets/images/shivang_bagri.jpg';
+import shivangImg from '../assets/images/Shivang_Bagri.jpg';
 import dhruvinImg from '../assets/images/Dhruvin_Patel.jpg';
 import shivanshImg from '../assets/images/Shivansh gupta .jpg';
 import vedaantImg from '../assets/images/Vedaant Gupta.jpg';
