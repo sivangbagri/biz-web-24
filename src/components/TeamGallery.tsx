@@ -7,9 +7,10 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules"
 import { coreTeam, alumni, galleryPhotos } from "@/data/gallery-data"
 import type { TeamMember, AlumniMember, GalleryPhoto } from "@/data/gallery-data"
 
+
 const TeamGallery: React.FC = () => {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-20">
       {/* Core Team Section */}
       <section className="mb-20">
         <h2 className="text-3xl font-bold text-center mb-12">Core Team</h2>
