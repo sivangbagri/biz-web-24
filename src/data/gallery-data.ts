@@ -1,3 +1,12 @@
+import asthaImg from '../assets/images/astha_shetty.png';
+import aryanImg from '../assets/images/aryan_sharma.jpeg';
+import hrishitImg from '../assets/images/hrishit_yelchuri.png';
+import shivangImg from '../assets/images/shivang_bagri.jpg';
+import dhruvinImg from '../assets/images/Dhruvin_Patel.jpg';
+import shivanshImg from '../assets/images/Shivansh gupta .jpg';
+import vedaantImg from '../assets/images/Vedaant Gupta.jpg';
+import uditImg from '../assets/images/udit_patidar.jpg';
+
 export interface TeamMember {
     name: string
     position: string
@@ -21,44 +30,60 @@ export interface TeamMember {
   
   export const coreTeam: TeamMember[] = [
     {
-      name: "John Doe",
-      position: "Chief Strategy Officer",
-      image:
-        "https://dummyimage.com/200x200/000/fff&text=John+Doe",
-      email: "mailto:johndoe@example.com",
-      linkedin: "https://linkedin.com/in/johndoe",
+      name: "Astha Shetty",
+      position: "Secretary",
+      image: asthaImg,
+      email: "mailto:aastha.shetty.phe22@itbhu.ac.in",
+      linkedin: "https://linkedin.com/in/aastha-shetty-4bb85824a",
     },
     {
-      name: "Jane Smith",
-      position: "Head of Operations",
-      image:
-        "https://dummyimage.com/200x200/000/fff&text=Jane+Smith",
-      email: "mailto:janesmith@example.com",
-      linkedin: "https://linkedin.com/in/janesmith",
+      name: "Aryan Sharma",
+      position: "General Secretary",
+      image: aryanImg,
+      email: "mailto:aryankumar.sharma.met22@itbhu.ac.in",
+      linkedin: "https://linkedin.com/in/aryan-sharma-100841255",
     },
     {
-      name: "Alex Johnson",
-      position: "Director of Innovation",
-      image:
-        "https://dummyimage.com/200x200/000/fff&text=Alex+Johnson",
-      email: "mailto:alexjohnson@example.com",
-      linkedin: "https://linkedin.com/in/alexjohnson",
+      name: "Hrishit Yelchuri",
+      position: "General Secretary",
+      image: hrishitImg,
+      email: "mailto:hrishityelchuri2017@gmail.com",
+      linkedin: "https://linkedin.com/in/hrishit-yelchuri-66837824a",
     },
     {
-      name: "Emily Davis",
-      position: "Product Development Lead",
-      image:
-        "https://dummyimage.com/200x200/000/fff&text=Emily+Davis",
-      email: "mailto:emilydavis@example.com",
-      linkedin: "https://linkedin.com/in/emilydavis",
+      name: "Shivang Bagri",
+      position: "Tech Head",
+      image: shivangImg,
+      email: "mailto:sivangbagri@gmail.com",
+      linkedin: "https://linkedin.com/in/shivang-bagri",
     },
     {
-      name: "Michael Brown",
-      position: "Marketing and Communications Head",
-      image:
-        "https://dummyimage.com/200x200/000/fff&text=Michael+Brown",
-      email: "mailto:michaelbrown@example.com",
-      linkedin: "https://linkedin.com/in/michaelbrown",
+      name: "Dhruvin Patel",
+      position: "B.A.S.H. Head",
+      image: dhruvinImg,
+      email: "mailto:dhruvinpatelajitbhai9719@gmail.com",
+      linkedin: "https://linkedin.com/in/dhruvin-patel-34877524b",
+    },
+    {
+      name: "Shivansh Gupta",
+      position: "B.A.S.H. Head",
+      image: shivanshImg,
+      email: "mailto:shivansh180804@gmail.com",
+      linkedin: "https://linkedin.com/in/shivansh-gupta-126206250",
+    },
+    {
+      name: "Vedaant Gupta",
+      position: "Casebook Head",
+      image: vedaantImg,
+      email: "mailto:vedaantguptaofficial@gmail.com",
+      linkedin: "https://linkedin.com/in/vedaant-gupta",
+    },
+    {
+      name: "Udit Patidar",
+      position: "Casebook Head",
+      image: uditImg,
+      email: "mailto:uditpatidar07@gmail.com",
+      linkedin: "https://linkedin.com/in/udit-patidar",
     },
   ];
   

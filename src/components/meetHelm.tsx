@@ -12,18 +12,21 @@ const MeetTheHelm: React.FC = () => {
             role: 'Secretary',
             description: 'A visionary leader with a knack for strategic thinking and innovation.',
             image: asthaImg,
+            linkedin: "https://linkedin.com/in/aastha-shetty-4bb85824a",
         },
         {
             name: 'Aryan Sharma',
             role: 'General Secretary',
             description: 'Passionate about fostering teamwork and ensuring smooth operations.',
             image: aryanImg,
+            linkedin: "https://linkedin.com/in/aryan-sharma-100841255",
         },
         {
             name: 'Hrishit Yelchuri',
             role: 'General Secretary',
             description: 'Committed to driving growth and creating impactful initiatives.',
             image: hrishitImg,
+            linkedin: "https://linkedin.com/in/hrishit-yelchuri-66837824a",
         },
     ];
 
@@ -63,7 +66,7 @@ const MeetTheHelm: React.FC = () => {
                                 LinkedIn
                             </a>
                             <a
-                                href="#"
+                                href={member.linkedin}
                                 className="hover:text-indigo-800 transition-colors"
                             >
                                 Instagram
