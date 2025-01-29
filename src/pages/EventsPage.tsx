@@ -7,7 +7,7 @@ const EventsPage: FC = () => {
     <div className="min-h-screen bg-white py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-6xl font-bold text-black mb-4">BASH 2025</h1>
+          <h1 className="text-6xl font-bold text-black mb-4 mt-5">BASH 2025</h1>
           <p className="text-gray-700 text-xl">
             Engage. Innovate. Dominate.
           </p>

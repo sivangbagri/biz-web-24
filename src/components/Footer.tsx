@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="footer-right">
           <div className="footer-section">
             <h3 className="footer-title">Company</h3>
-            <a href="#about">About</a>
-            <a href="#mobile">Mobile</a>
-            <a href="#blog">Blog</a>
-            <a href="#how">How we work?</a>
+            <a href="/about">About</a>
+            <a href="/newsletter">Blog</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/achievements">Achievements</a>
           </div>
 
           <div className="footer-section">
@@ -46,11 +46,9 @@ const Footer = () => {
 
           <div className="footer-section">
             <h3 className="footer-title">Social Media</h3>
-            <a href="#facebook">Facebook</a>
-            <a href="#twitter">Twitter</a>
-            <a href="#instagram">Instagram</a>
-            <a href="#youtube">Youtube</a>
-          </div>
+            <a href="https://www.linkedin.com/company/businessclubiitbhu/mycompany/">Linkedin</a>
+             <a href="https://instagram.com/businessclub_iitbhu">Instagram</a>
+           </div>
         </div>
       </div>
       
