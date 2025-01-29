@@ -10,6 +10,7 @@ import GalleryPage from '@/pages/GalleryPage';
 import Timeline from './pages/timeline';
 import MeetTheHelm from './pages/meetHelm';
 import OurAchievements from './pages/achievements';
+import ComingSoon from './pages/ComingSoon';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/meethelm" element={<MeetTheHelm />} />
         <Route path="/achievements" element={<OurAchievements />} />  
+        <Route path="/newsletter" element={<ComingSoon />} />  
       </Routes>
     </Router>
     <Footer />
