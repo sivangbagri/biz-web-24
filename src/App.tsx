@@ -16,8 +16,8 @@ import About from './pages/About';
 function App() {
   return (
     <>
-    <Navbar />
     <Router>
+    <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/bash" element={<EventsPage />} />
