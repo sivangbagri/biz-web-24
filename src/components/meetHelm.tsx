@@ -13,6 +13,7 @@ const MeetTheHelm: React.FC = () => {
             description: 'A visionary leader with a knack for strategic thinking and innovation.',
             image: asthaImg,
             linkedin: "https://linkedin.com/in/aastha-shetty-4bb85824a",
+            instagram : "https://www.instagram.com/aastha09_02?igsh=MXRhZHZ2d3c3NWduYw==",
         },
         {
             name: 'Aryan Sharma',
@@ -20,6 +21,7 @@ const MeetTheHelm: React.FC = () => {
             description: 'Passionate about fostering teamwork and ensuring smooth operations.',
             image: aryanImg,
             linkedin: "https://linkedin.com/in/aryan-sharma-100841255",
+            instagram: "https://www.instagram.com/aryan_sharma2907?igsh=dmh4MDFuc2wyYzFq",
         },
         {
             name: 'Hrishit Yelchuri',
@@ -27,6 +29,7 @@ const MeetTheHelm: React.FC = () => {
             description: 'Committed to driving growth and creating impactful initiatives.',
             image: hrishitImg,
             linkedin: "https://linkedin.com/in/hrishit-yelchuri-66837824a",
+            instagram : "https://www.instagram.com/dripp.hrishit?igsh=MXFrcTA5bXl6MWkwaA==",
         },
     ];
 
@@ -60,13 +63,13 @@ const MeetTheHelm: React.FC = () => {
                         </div>
                         <div className="p-4 bg-gray-100 flex justify-center gap-4">
                             <a
-                                href="#"
+                                href={member.linkedin}
                                 className="hover:text-indigo-800 transition-colors"
                             >
                                 LinkedIn
                             </a>
                             <a
-                                href={member.linkedin}
+                                href={member.instagram}
                                 className="hover:text-indigo-800 transition-colors"
                             >
                                 Instagram

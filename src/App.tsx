@@ -12,6 +12,7 @@ import MeetTheHelm from './components/meetHelm';
 import OurAchievements from './pages/achievements';
 import ComingSoon from './pages/ComingSoon';
 import About from './pages/About';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
         <Route path="/meethelm" element={<MeetTheHelm />} />
         <Route path="/achievements" element={<OurAchievements />} />  
         <Route path="/newsletter" element={<ComingSoon />} />  
-        <Route path="/about" element={<About />} />  
+        <Route path="/about" element={<About />} /> 
+        <Route path="/contact" element={<ContactUs />} /> 
       </Routes>
     </Router>
     <Footer />
