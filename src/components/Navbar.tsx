@@ -11,7 +11,7 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const navbarRef = useRef(null);
+  const navbarRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
