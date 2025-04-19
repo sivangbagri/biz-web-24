@@ -89,7 +89,7 @@ const Navbar = () => {
           <Link to="/gallery" className={`nav-link ${location.pathname === "/gallery" ? "active" : ""}`}>
             GALLERY
           </Link>
-          <Link to="/blogs" className={`nav-link ${location.pathname === "/newsletter" ? "active" : ""}`}>
+          <Link to="/blogs" className={`nav-link ${location.pathname === "/blogs" ? "active" : ""}`}>
             BLOGS
           </Link>
         </div>
