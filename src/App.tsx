@@ -13,6 +13,7 @@ import OurAchievements from './pages/achievements';
 import ComingSoon from './pages/ComingSoon';
 import About from './pages/About';
 import ContactUs from './pages/ContactUs';
+import Blogs from './pages/Blogs';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         <Route path="/achievements" element={<OurAchievements />} />  
         <Route path="/newsletter" element={<ComingSoon />} />  
         <Route path="/about" element={<About />} /> 
-        <Route path="/contact" element={<ContactUs />} /> 
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/blogs" element={<Blogs />} /> 
       </Routes>
     </Router>
     <Footer />

@@ -23,11 +23,13 @@ const EventDetailPage: FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen py-15" style={{
+      backgroundImage: "linear-gradient(290deg, #7e28d6 5%, #2a225b 64%)",
+    }}>
       <div className="max-w-6xl mx-auto p-8">
         <button
           onClick={() => navigate(-1)}
-          className="mb-6 text-gray-600 hover:text-black flex items-center"
+          className="mb-6 text-gray-100 hover:text-gray-400 flex items-center"
         >
           <span className="mr-2">←</span> Back to Events
         </button>

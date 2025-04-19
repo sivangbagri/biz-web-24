@@ -1,15 +1,9 @@
 import productImg from '../assets/images/product.jpg';
 import financeimg from '../assets/images/finance.jpg';
 import dataimg from '../assets/images/dataAn.png';
-import consultingImg from '../assets/images/consult.jpg'
+import consultingImg from '../assets/images/consult1.jpg'
 
 export const VerticalsCardsData = [
-    {
-      title: "Product Management",
-      description:
-        "Every great business starts with an innovative idea — a journey from concept to creation. Learn to identify market opportunities, define product strategy, and lead cross-functional teams to deliver successful solutions.",
-      image: productImg,
-    },
     {
       title: "Finance & Economics",
       description:
@@ -21,6 +15,12 @@ export const VerticalsCardsData = [
       description:
         "Gain insights through data interpretation to drive smarter business decisions. Learn advanced analytics tools, visualization techniques, and how to translate data into actionable business strategies.",
       image: dataimg,
+    },
+    {
+      title: "Product Management",
+      description:
+        "Every great business starts with an innovative idea — a journey from concept to creation. Learn to identify market opportunities, define product strategy, and lead cross-functional teams to deliver successful solutions.",
+      image: productImg,
     },
     {
       title: "Consulting",

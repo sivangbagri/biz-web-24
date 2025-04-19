@@ -32,27 +32,27 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-blue-50 to-gray-50 min-h-screen py-16">
+    <div className=" min-h-screen py-16" style={{ backgroundImage: "linear-gradient(290deg, #7e28d6 5%, #2a225b 64%)" }}>
       <div className="max-w-6xl mx-auto px-6 py-20">
-        <div className="flex flex-col md:flex-row bg-white rounded-2xl shadow-lg overflow-hidden w-full">
-          <div className="md:w-2/5 p-10 bg-gradient-to-br from-blue-100 to-blue-200 text-gray-800 relative">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full opacity-50 transform translate-x-16 -translate-y-16"></div>
-            <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-200 rounded-full opacity-50 transform -translate-x-12 translate-y-12"></div>
-            <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-blue-200 rounded-full opacity-30"></div>
+        <div className="flex flex-col md:flex-row bg-black/25 rounded-2xl shadow-lg overflow-hidden w-full">
+          <div className="md:w-2/5 p-10 bg-black/20 text-white relative">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-gray-100 rounded-full opacity-50 transform translate-x-16 -translate-y-16"></div>
+            <div className="absolute bottom-0 left-0 w-24 h-24 bg-gray-100 rounded-full opacity-50 transform -translate-x-12 translate-y-12"></div>
+            <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-white rounded-full opacity-30"></div>
             
             <div className="relative z-10 flex flex-col justify-center h-full">
-              <h2 className="text-3xl font-bold mb-6 text-blue-600">Contact Us</h2>
-              <p className="text-lg text-gray-700">
+              <h2 className="text-3xl font-bold mb-6 text-white">Contact Us</h2>
+              <p className="text-lg text-gray-300">
                 Whether you have a question about our events, projects, or anything else, our team is ready to answer all your questions. Fill out the form and we'll get back to you as soon as possible.
               </p>
-              <p className="text-lg text-gray-700 mt-6">
+              <p className="text-lg text-gray-300 mt-6">
                 We value your feedback and look forward to connecting with you!
               </p>
             </div>
           </div>
 
-          <div className="md:w-3/5 p-10 bg-white">
-            <h2 className="text-2xl font-semibold text-blue-600 mb-6">Send us a message</h2>
+          <div className="md:w-3/5 p-10 bg-black/25">
+            <h2 className="text-2xl font-semibold text-white mb-6">Send us a message</h2>
             
             {submitSuccess && (
               <div className="bg-green-50 border border-green-300 text-green-700 px-4 py-3 rounded mb-6 flex items-center">
@@ -66,24 +66,24 @@ const ContactUs = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col">
-                  <label className="text-gray-700 font-medium mb-1">Full Name</label>
+                  <label className="text-gray-300 font-medium mb-1">Full Name</label>
                   <input
                     type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="border border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-50"
+                    className="border text-white border-gray-200 rounded-lg p-3 focus:ring-1 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-800/30"
                     required
                   />
                 </div>
                 <div className="flex flex-col">
-                  <label className="text-gray-700 font-medium mb-1">Email Address</label>
+                  <label className="text-white font-medium mb-1">Email Address</label>
                   <input
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="border border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-50"
+                    className="border text-white border-gray-200 rounded-lg p-3 focus:ring-1 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-800/30"
                     required
                   />
                 </div>
@@ -91,37 +91,37 @@ const ContactUs = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col">
-                  <label className="text-gray-700 font-medium mb-1">Phone Number</label>
+                  <label className="text-white font-medium mb-1">Phone Number</label>
                   <input
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="border border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-50"
+                    className="border text-white border-gray-200 rounded-lg p-3 focus:ring-1 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-800/30"
                     required
                   />
                 </div>
                 <div className="flex flex-col">
-                  <label className="text-gray-700 font-medium mb-1">College/University</label>
+                  <label className="text-white font-medium mb-1">College/University</label>
                   <input
                     type="text"
                     name="college"
                     value={formData.college}
                     onChange={handleChange}
-                    className="border border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-50"
+                    className="border text-white border-gray-200 rounded-lg p-3 focus:ring-1 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-800/30"
                     required
                   />
                 </div>
               </div>
               
               <div className="flex flex-col">
-                <label className="text-gray-700 font-medium mb-1">Your Message</label>
+                <label className="text-white font-medium mb-1">Your Message</label>
                 <textarea
                   name="message"
                   rows={5}
                   value={formData.message}
                   onChange={handleChange}
-                  className="border border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-50"
+                  className="border text-white border-gray-200 rounded-lg p-3 focus:ring-1 focus:ring-blue-300 focus:border-blue-300 transition-all bg-gray-800/30"
                   required
                 ></textarea>
               </div>
@@ -130,10 +130,10 @@ const ContactUs = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className={`w-full md:w-auto px-8 py-3 rounded-lg text-white font-medium transition-all ${
+                  className={`w-full md:w-auto px-8 py-3 rounded-lg  text-white font-medium transition-all ${
                     isSubmitting 
-                      ? "bg-blue-300 cursor-not-allowed" 
-                      : "bg-blue-500 hover:bg-blue-600 hover:shadow-lg"
+                      ? "bg-[#9e4def] cursor-not-allowed" 
+                      : "bg-[#7e28d6] hover:shadow-lg"
                   }`}
                 >
                   {isSubmitting ? (
