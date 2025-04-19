@@ -5,7 +5,7 @@ import Verticals from "../components/Verticals";
 import Sponsors from '@/components/Sponsors';
 const LandingPage: FC = () => {
   return (
-    <div>
+    <div className="bg-[url('../assets/images/background.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
         <HeroSection/>
         <Verticals/>
         <MeetTheHelm/>

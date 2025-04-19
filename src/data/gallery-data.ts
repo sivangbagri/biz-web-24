@@ -1,6 +1,6 @@
 import asthaImg from '../assets/images/astha_shetty.png';
 import aryanImg from '../assets/images/aryan_sharma.jpeg';
-import hrishitImg from '../assets/images/hrishit_yelchuri.png';
+import hrishitImg from '../assets/images/hrishit_yelchuri copy.png';
 import shivangImg from '../assets/images/Shivang_Bagri.jpg';
 import dhruvinImg from '../assets/images/Dhruvin_Patel.jpg';
 import shivanshImg from '../assets/images/Shivansh gupta .jpg';
@@ -38,14 +38,14 @@ export interface TeamMember {
     },
     {
       name: "Aryan Sharma",
-      position: "General Secretary",
+      position: "Joint Secretary",
       image: aryanImg,
       email: "mailto:aryankumar.sharma.met22@itbhu.ac.in",
       linkedin: "https://linkedin.com/in/aryan-sharma-100841255",
     },
     {
       name: "Hrishit Yelchuri",
-      position: "General Secretary",
+      position: "Joint Secretary",
       image: hrishitImg,
       email: "mailto:hrishityelchuri2017@gmail.com",
       linkedin: "https://linkedin.com/in/hrishit-yelchuri-66837824a",

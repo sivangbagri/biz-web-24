@@ -19,9 +19,9 @@ const sponsorLogos = [
 
 const Sponsors: React.FC = () => {
   return (
-    <div className="bg-white py-12">
+    <div className="backdrop-blur-2xl py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">
+        <h2 className="text-3xl font-bold text-center mb-8 text-white">
           {" "}
           Sponsors and Partnerships{" "}
         </h2>

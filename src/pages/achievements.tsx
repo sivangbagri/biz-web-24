@@ -41,23 +41,25 @@ const OurAchievements: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen py-20 bg-gradient-to-br from-gray-100 to-gray-200 text-black">
-      <header className="py-16 text-center bg-indigo-600 text-white">
-        <h1 className="text-5xl font-extrabold">Our Achievements</h1>
-        <p className="mt-4 text-lg font-medium max-w-3xl mx-auto">
+    <div className="min-h-screen py-15 bg-gradient-to-br from-gray-100 to-gray-200 text-black" style={{
+      backgroundImage: "linear-gradient(290deg, #7e28d6 5%, #2a225b 64%)",
+    }}>
+      <header className="py-10 text-center ">
+        <h1 className="text-5xl font-extrabold text-white">Our Achievements</h1>
+        <p className="mt-4 text-lg font-medium max-w-3xl mx-auto text-gray-300">
           We take pride in our accomplishments that reflect our dedication,
           teamwork, and passion for excellence.
         </p>
       </header>
       <section className="py-16 px-8">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
+        <h2 className="text-3xl font-bold text-center text-white mb-12">
           What We’ve Achieved
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className="bg-white text-gray-800 rounded-xl shadow-lg p-6 transform hover:scale-105 hover:shadow-2xl transition-transform duration-300"
+              className="bg-gray-600/30 text-white rounded-xl shadow-lg p-6 transform hover:scale-105 hover:shadow-2xl transition-transform duration-300"
             >
               <div className="flex items-center justify-center mb-6">
                 {achievement.icon}
@@ -65,15 +67,15 @@ const OurAchievements: React.FC = () => {
               <h3 className="text-xl font-bold mb-4 text-center">
                 {achievement.title}
               </h3>
-              <p className="text-gray-600 text-center">
+              <p className="text-gray-300 text-center">
                 {achievement.description}
               </p>
             </div>
           ))}
         </div>
       </section>
-      <section className="py-16 px-8 bg-white text-gray-800">
-        <h2 className="text-3xl font-bold text-center mb-12 text-indigo-600">
+      <section className="py-16 px-8">
+        <h2 className="text-3xl font-bold text-center mb-12 text-white">
           Speakers List
         </h2>
         <ul className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 md:max-w-[70vw]">
