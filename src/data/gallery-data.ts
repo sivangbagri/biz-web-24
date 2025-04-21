@@ -1,4 +1,4 @@
-import asthaImg from '../assets/images/astha_shetty.png';
+import asthaImg from '../assets/images/AsthaShetty.jpg';
 import aryanImg from '../assets/images/aryan_sharma.jpeg';
 import hrishitImg from '../assets/images/hrishit_yelchuri copy.png';
 import shivangImg from '../assets/images/Shivang_Bagri.jpg';

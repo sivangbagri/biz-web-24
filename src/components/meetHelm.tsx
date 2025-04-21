@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import asthaImg from "../assets/images/astha_shetty.png";
+import asthaImg from "../assets/images/AsthaShetty.jpg";
 import aryanImg from "../assets/images/aryan_sharma.jpeg";
 import hrishitImg from "../assets/images/hrishit_yelchuri copy.png";
 
@@ -39,7 +39,7 @@ const MeetTheHelm: React.FC = () => {
   ];
 
   return (
-    <div className="p-20 min-h-screen">
+    <div className="px-4 sm:px-8 md:px-12 lg:px-20 py-12 sm:py-16 md:py-20 min-h-screen">
       <h1 className="text-4xl font-bold text-center mb-8 text-white">
         Meet the Helm
       </h1>
