@@ -6,6 +6,33 @@ import dhruvinImg from '../assets/images/Dhruvin_Patel.jpg';
 import shivanshImg from '../assets/images/Shivansh gupta .jpg';
 import vedaantImg from '../assets/images/Vedaant Gupta.jpg';
 import uditImg from '../assets/images/udit_patidar.jpg';
+import AyushImg from '../assets/images/AyushAgarwal.jpg';
+import diw1 from '../assets/images/IMG-20250403-WA0167.jpg';
+import diw2 from '../assets/images/IMG-20250403-WA0184.jpg';
+import diw3 from '../assets/images/IMG-20250403-WA0168.jpg';
+import diw4 from '../assets/images/IMG-20250403-WA0160.jpg';
+import diw5 from '../assets/images/IMG-20250403-WA0158.jpg';
+import diw6 from '../assets/images/IMG-20250403-WA0156.jpg';
+import finance1 from '../assets/images/finanwork1.jpg';
+import consult1 from '../assets/images/consultwork1.jpg';
+import consult2 from '../assets/images/consultwork2.jpg';
+import consult3 from '../assets/images/consultwork3.jpg';
+import consult4 from '../assets/images/consultwork4.jpg';
+import prodwork1 from '../assets/images/prodwork1.jpg';
+import prodwork2 from '../assets/images/prodwork2.jpg';
+import prodwork3 from '../assets/images/prodwork3.jpg';
+import orien1 from '../assets/images/orien1.jpg';
+import orien2 from '../assets/images/orien2.jpg';
+import orien3 from '../assets/images/orien3.jpg';
+import orien4 from '../assets/images/orien4.jpg';
+import orien5 from '../assets/images/orien5.jpg';
+import villa1 from '../assets/images/villap1.jpg';
+import villa2 from '../assets/images/villap2.jpg';
+import villa3 from '../assets/images/villap3.jpg';
+import villa4 from '../assets/images/villap4.jpg';
+import villa5 from '../assets/images/villap5.jpg';
+import villa6 from '../assets/images/villap6.jpg';
+import villa7 from '../assets/images/villap7.jpg';
 
 export interface TeamMember {
     name: string
@@ -85,6 +112,13 @@ export interface TeamMember {
       email: "mailto:uditpatidar07@gmail.com",
       linkedin: "https://linkedin.com/in/udit-patidar",
     },
+    {
+      name: "Aarush Agarwal",
+      position: "Riqueza Head",
+      image: AyushImg,
+      email: "mailto:aarushagarwal813@gmail.com",
+      linkedin: "https://linkedin.com/in/aarush-agarwal-38b982220",
+    },
   ];
   
   
@@ -109,21 +143,41 @@ export interface TeamMember {
     },
   ];
   
-  export const galleryPhotos: GalleryPhoto[] = [
-    {
-      src: "/placeholder.svg?height=600&width=800",
-      title: "Event 2023",
-      alt: "Team gathered at Event 2023",
-    },
-    {
-      src: "/placeholder.svg?height=600&width=800",
-      title: "Workshop 2023",
-      alt: "Participants during Workshop 2023",
-    },
-    {
-      src: "/placeholder.svg?height=600&width=800",
-      title: "Conference 2023",
-      alt: "Conference 2023 main event",
-    },
-  ];
+  export const galleryPhotos ={
+  
+    Workshops: [
+      prodwork1,
+      consult1,
+      finance1,
+      prodwork2,
+      consult2,
+      consult3,
+      prodwork3,
+      consult4,
+    ],
+    Orientation: [
+      orien1,
+      orien2,
+      orien3,
+      orien4,
+      orien5,
+    ],
+    "Diwali Celebration": [
+      diw1,
+      diw2,
+      diw3,
+      diw4,
+      diw5,
+      diw6,
+    ],
+    "Villa Party" : [
+      villa1,
+      villa2,
+      villa3,
+      villa4,
+      villa5,
+      villa6,
+      villa7,
+    ],
+  };
   
