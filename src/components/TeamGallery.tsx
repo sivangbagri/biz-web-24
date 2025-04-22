@@ -2,8 +2,8 @@ import type React from "react"
 import { Mail, Linkedin } from "lucide-react"
 
 
-import { coreTeam, alumni, galleryPhotos } from "@/data/gallery-data"
-import type { TeamMember, AlumniMember } from "@/data/gallery-data"
+import { coreTeam, galleryPhotos } from "@/data/gallery-data"
+import type { TeamMember } from "@/data/gallery-data"
 
 
 const TeamGallery: React.FC = () => {
