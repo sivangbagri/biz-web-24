@@ -6,7 +6,7 @@ import dhruvinImg from '../assets/images/Dhruvin_Patel.jpg';
 import shivanshImg from '../assets/images/Shivansh gupta .jpg';
 import vedaantImg from '../assets/images/Vedaant Gupta.jpg';
 import uditImg from '../assets/images/udit_patidar.jpg';
-import AyushImg from '../assets/images/AyushAgarwal.jpg';
+import AarushImg from '../assets/images/AarushAgarwal.jpg';
 import diw1 from '../assets/images/IMG-20250403-WA0167.jpg';
 import diw2 from '../assets/images/IMG-20250403-WA0184.jpg';
 import diw3 from '../assets/images/IMG-20250403-WA0168.jpg';
@@ -114,8 +114,8 @@ export interface TeamMember {
     },
     {
       name: "Aarush Agarwal",
-      position: "Riqueza Head",
-      image: AyushImg,
+      position: "Technex Head",
+      image: AarushImg,
       email: "mailto:aarushagarwal813@gmail.com",
       linkedin: "https://linkedin.com/in/aarush-agarwal-38b982220",
     },
