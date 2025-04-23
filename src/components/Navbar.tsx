@@ -98,7 +98,7 @@ const Navbar = () => {
         <div
           className={`absolute top-16 left-0 right-0 transform ${
             isMenuOpen ? "translate-y-0 opacity-100 block" : "-translate-y-full opacity-0 hidden"
-          } backdrop-blur-lg shadow-lg transition-all duration-300 ease-in-out md:hidden z-50`}
+          } bg-black/30 backdrop-blur-xl shadow-lg transition-all duration-300 ease-in-out md:hidden z-50`}
         >
           <div className="p-4 space-y-2">
             <Link
