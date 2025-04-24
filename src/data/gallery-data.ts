@@ -170,7 +170,7 @@ export interface TeamMember {
       diw5,
       diw6,
     ],
-    "Villa Party" : [
+    Party : [
       villa1,
       villa2,
       villa3,
