@@ -7,7 +7,7 @@ import hrishitImg from "../assets/images/hrishit_yelchuri copy.png";
 const MeetTheHelm: React.FC = () => {
   const members = [
     {
-      name: "Astha Shetty",
+      name: "Aastha Shetty",
       role: "Secretary",
       description:
         "A visionary leader with a knack for strategic thinking and innovation.",
