@@ -57,7 +57,7 @@ export interface TeamMember {
   
   export const coreTeam: TeamMember[] = [
     {
-      name: "Astha Shetty",
+      name: "Aastha Shetty",
       position: "Secretary",
       image: asthaImg,
       email: "mailto:aastha.shetty.phe22@itbhu.ac.in",
