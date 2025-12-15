@@ -1,40 +1,40 @@
 import React from "react";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import asthaImg from "../assets/images/AsthaShetty.jpg";
-import aryanImg from "../assets/images/aryan_sharma.jpeg";
-import hrishitImg from "../assets/images/hrishit_yelchuri copy.png";
+import bhoomiImg from "../assets/images/bhoomi_sharma.jpeg";
+import adityaImg from "../assets/images/aditya_namdeo.jpeg";
+import sagnikImg from "../assets/images/sagnik_giri.jpeg";
 
 const MeetTheHelm: React.FC = () => {
   const members = [
     {
-      name: "Aastha Shetty",
+      name: "Bhoomi Sharma",
       role: "Secretary",
       description:
         "A visionary leader with a knack for strategic thinking and innovation.",
-      image: asthaImg,
-      linkedin: "https://linkedin.com/in/aastha-shetty-4bb85824a",
+      image: bhoomiImg,
+      linkedin: "https://www.linkedin.com/in/bhoomi-sharma-16395736a",
       instagram:
-        "https://www.instagram.com/aastha09_02?igsh=MXRhZHZ2d3c3NWduYw==",
+        "https://www.instagram.com/bhoomi_3045",
     },
     {
-      name: "Aryan Sharma",
+      name: "Aditya Namdeo",
       role: "Joint Secretary",
       description:
         "Passionate about fostering teamwork and ensuring smooth operations.",
-      image: aryanImg,
-      linkedin: "https://linkedin.com/in/aryan-sharma-100841255",
+      image: adityaImg,
+      linkedin: "https://www.linkedin.com/in/aditya-namdeo-922aaa27b",
       instagram:
-        "https://www.instagram.com/aryan_sharma2907?igsh=dmh4MDFuc2wyYzFq",
+        "https://www.instagram.com/aditya_dakait",
     },
     {
-      name: "Hrishit Yelchuri",
+      name: "Sagnik Giri",
       role: "Joint Secretary",
       description:
         "Committed to driving growth and creating impactful initiatives.",
-      image: hrishitImg,
-      linkedin: "https://linkedin.com/in/hrishit-yelchuri-66837824a",
+      image: sagnikImg,
+      linkedin: "https://www.linkedin.com/in/sagnik-giri-5a8494287",
       instagram:
-        "https://www.instagram.com/dripp.hrishit?igsh=MXFrcTA5bXl6MWkwaA==",
+        "https://www.instagram.com/sagnik4268",
     },
   ];
 
@@ -75,7 +75,7 @@ const MeetTheHelm: React.FC = () => {
             </div>
             <div className="p-4 text-white backdrop-blur-3xl flex justify-center gap-8">
               <a
-                href="https://www.linkedin.com/company/businessclubiitbhu/mycompany/"
+                href={member.linkedin}
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
