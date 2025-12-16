@@ -1,6 +1,6 @@
-import asthaImg from '../assets/images/AsthaShetty.jpg';
-import aryanImg from '../assets/images/aryan_sharma.jpeg';
-import hrishitImg from '../assets/images/hrishit_yelchuri copy.png';
+import bhoomiImg from "../assets/images/bhoomi_sharma.jpeg";
+import adityaImg from "../assets/images/aditya_namdeo.jpeg";
+import sagnikImg from "../assets/images/sagnik_giri.jpeg";
 import shivangImg from '../assets/images/Shivang_Bagri.jpg';
 import dhruvinImg from '../assets/images/Dhruvin_Patel.jpg';
 import shivanshImg from '../assets/images/Shivansh gupta .jpg';
@@ -57,25 +57,25 @@ export interface TeamMember {
   
   export const coreTeam: TeamMember[] = [
     {
-      name: "Aastha Shetty",
+      name: "Bhoomi Sharma",
       position: "Secretary",
-      image: asthaImg,
-      email: "mailto:aastha.shetty.phe22@itbhu.ac.in",
-      linkedin: "https://linkedin.com/in/aastha-shetty-4bb85824a",
+      image: bhoomiImg,
+      email: "mailto:bhoomi.sharma.mec23@itbhu.ac.in",
+      linkedin: "https://www.linkedin.com/in/bhoomi-sharma-16395736a",
     },
     {
-      name: "Aryan Sharma",
+      name: "Aditya Namdeo",
       position: "Joint Secretary",
-      image: aryanImg,
-      email: "mailto:aryankumar.sharma.met22@itbhu.ac.in",
-      linkedin: "https://linkedin.com/in/aryan-sharma-100841255",
+      image: adityaImg,
+      email: "mailto:aditya.namdeo.met23@itbhu.ac.in",
+      linkedin: "https://www.linkedin.com/in/aditya-namdeo-922aaa27b",
     },
     {
-      name: "Hrishit Yelchuri",
+      name: "Sagnik Giri",
       position: "Joint Secretary",
-      image: hrishitImg,
-      email: "mailto:hrishityelchuri2017@gmail.com",
-      linkedin: "https://linkedin.com/in/hrishit-yelchuri-66837824a",
+      image: sagnikImg,
+      email: "mailto:sagnik.giri.mec23@itbhu.ac.in",
+      linkedin: "https://www.linkedin.com/in/sagnik-giri-5a8494287",
     },
     {
       name: "Shivang Bagri",
